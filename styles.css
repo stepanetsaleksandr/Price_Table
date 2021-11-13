@@ -1,5 +1,12 @@
 .price {
-  background-color: black;
+  display: flex;
+  background-color: #141b1c;
+  color: white;
+}
+
+.card {
+  width: 380px;
+  height: 770px;
 }
 
 * {
@@ -15,4 +22,4 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
