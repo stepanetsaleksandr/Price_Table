@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   padding: 115px 132px;
-  background-color: #000;
-  color: #fff;
 }
 .price-tables div:nth-child(1) .price-card__option-list-item:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
@@ -103,6 +101,8 @@
 html {
   font-size: 16px;
   font-family: Montserrat;
+  background-color: #000;
+  color: #fff;
 }
 
 body {
