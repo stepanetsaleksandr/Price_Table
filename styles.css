@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 115px 132px;
-  background-color: #131a1b;
+  background-color: #000;
   color: #fff;
 }
 .price-tables div:nth-child(1) .price-card__option-list-item:before {

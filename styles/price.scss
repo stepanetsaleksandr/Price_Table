@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 115px 132px;
-  background-color: hsl(188, 17%, 9%);
+  background-color: #000;
   color: $white-color;
 
   // Card One
@@ -55,7 +55,7 @@
   align-items: center;
   width: 380px;
   height: 770px;
-  background-color: #334247;
+  background-color: $card-background-color;
   margin-left: 18px;
 
   &__title {
@@ -98,7 +98,7 @@
       font-size: 15px;
 
       &:nth-child(2n + 1) {
-        background-color: #2a3438;
+        background-color: $list-color;
       }
     }
 
