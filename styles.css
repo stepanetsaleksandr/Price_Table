@@ -8,7 +8,7 @@
 .price-tables div:nth-child(1) .price-card__option-list-item:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-tables div:nth-child(1) .price-card__money {
+.price-tables div:nth-child(1) .price-card__price {
   background-color: #5bb189;
 }
 .price-tables div:nth-child(1) .price-card__order-btn {
@@ -17,7 +17,7 @@
 .price-tables div:nth-child(2) .price-card__option-list-item:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-tables div:nth-child(2) .price-card__money {
+.price-tables div:nth-child(2) .price-card__price {
   background-color: #3a6ba5;
 }
 .price-tables div:nth-child(2) .price-card__order-btn {
@@ -26,7 +26,7 @@
 .price-tables div:nth-child(3) .price-card__option-list-item:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
-.price-tables div:nth-child(3) .price-card__money {
+.price-tables div:nth-child(3) .price-card__price {
   background-color: #ec632a;
 }
 .price-tables div:nth-child(3) .price-card__order-btn {
@@ -53,7 +53,7 @@
   font-size: 20px;
   line-height: 24px;
 }
-.price-card__money {
+.price-card__price {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +86,7 @@
   margin-left: 22px;
 }
 .price-card__order-btn {
-  margin-top: 39px;
+  margin: 39px auto 40px auto;
   width: 154px;
   height: 40px;
   font-size: 14px;

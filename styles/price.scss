@@ -11,7 +11,7 @@
       &__option-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
       }
-      &__money {
+      &__price {
         background-color: $green-color;
       }
       &__order-btn {
@@ -25,7 +25,7 @@
       &__option-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
       }
-      &__money {
+      &__price {
         background-color: $blue-color;
       }
       &__order-btn {
@@ -39,7 +39,7 @@
       &__option-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
       }
-      &__money {
+      &__price {
         background-color: $orange-color;
       }
       &__order-btn {
@@ -71,7 +71,7 @@
     line-height: 24px;
   }
 
-  &__money {
+  &__price {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,6 @@
     width: 100%;
     font-size: 55px;
     font-weight: 700;
-    // background-color: $green-color;
   }
   &__description {
     width: 327px;
@@ -110,7 +109,7 @@
   }
 
   &__order-btn {
-    margin-top: 39px;
+    margin: 39px auto 40px auto;
     width: 154px;
     height: 40px;
     font-size: 14px;
