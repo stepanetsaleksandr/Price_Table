@@ -1,11 +1,122 @@
-.price {
+.price-tables {
   display: flex;
+  justify-content: center;
+  padding: 115px 132px;
+  background-color: hsl(188, 17%, 9%);
+  color: $white-color;
 
-  background-color: #141b1c;
-  color: white;
+  // Card One
+  & div:nth-child(1) {
+    .price-card {
+      &__option-list-item:before {
+        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+      }
+      &__money {
+        background-color: $green-color;
+      }
+      &__order-btn {
+        background-color: $green-color;
+      }
+    }
+  }
+  //Card Two
+  & div:nth-child(2) {
+    .price-card {
+      &__option-list-item:before {
+        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      }
+      &__money {
+        background-color: $blue-color;
+      }
+      &__order-btn {
+        background-color: $blue-color;
+      }
+    }
+  }
+  //Card Three
+  & div:nth-child(3) {
+    .price-card {
+      &__option-list-item:before {
+        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+      }
+      &__money {
+        background-color: $orange-color;
+      }
+      &__order-btn {
+        background-color: $orange-color;
+      }
+    }
+  }
 }
 
-.card {
+.price-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 380px;
   height: 770px;
+  background-color: #334247;
+  margin-left: 18px;
+
+  &__title {
+    margin: 33px 0 0 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+    width: 100%;
+    font-size: 55px;
+    font-weight: 700;
+    // background-color: $green-color;
+  }
+  &__description {
+    width: 327px;
+    margin: 0 26px 40px 26px;
+    font-size: 15px;
+
+    text-align: center;
+  }
+
+  &__option-list {
+    list-style: none;
+    width: 100%;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    &-item {
+      font-size: 15px;
+
+      &:nth-child(2n + 1) {
+        background-color: #2a3438;
+      }
+    }
+
+    &-item:before {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+  }
+
+  &__order-btn {
+    margin-top: 39px;
+    width: 154px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    color: $white-color;
+    text-transform: uppercase;
+  }
 }
