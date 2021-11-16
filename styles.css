@@ -83,6 +83,7 @@
   width: 327px;
   margin: 40px 26px 40px 26px;
   font-size: 15px;
+  font-weight: 300;
   text-align: center;
 }
 .price-card__options-list {
