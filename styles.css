@@ -68,18 +68,17 @@
   line-height: 24px;
 }
 .price-card__price {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 132px;
+  margin: 0;
+  margin-top: 33px;
   width: 100%;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
   font-weight: 700;
+  text-align: center;
 }
 .price-card__description {
   width: 327px;
-  margin: 0 26px 40px 26px;
+  margin: 40px 26px 40px 26px;
   font-size: 15px;
   text-align: center;
 }
