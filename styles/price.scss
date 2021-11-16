@@ -57,6 +57,9 @@
   background-color: $card-background-color;
   margin-left: 18px;
   overflow: hidden;
+  &:first-child {
+    margin-left: 0;
+  }
 
   &__label {
     position: absolute;
