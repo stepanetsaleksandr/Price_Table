@@ -6,7 +6,7 @@
   // Card One
   & div:nth-child(1) {
     .price-card {
-      &__option-list-item:before {
+      &__options-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
       }
       &__price {
@@ -20,7 +20,7 @@
   //Card Two
   & div:nth-child(2) {
     .price-card {
-      &__option-list-item:before {
+      &__options-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
       }
       &__price {
@@ -34,7 +34,7 @@
   //Card Three
   & div:nth-child(3) {
     .price-card {
-      &__option-list-item:before {
+      &__options-list-item:before {
         content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
       }
       &__price {
@@ -86,7 +86,7 @@
     text-align: center;
   }
 
-  &__option-list {
+  &__options-list {
     list-style: none;
     width: 100%;
     line-height: 50px;
