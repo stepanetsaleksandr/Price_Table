@@ -75,6 +75,7 @@
 }
 .price-card__options-list-item {
   font-size: 15px;
+  font-weight: 300;
 }
 .price-card__options-list-item:nth-child(2n+1) {
   background-color: #2a3438;

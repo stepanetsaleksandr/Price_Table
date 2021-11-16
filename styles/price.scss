@@ -94,6 +94,7 @@
     padding: 0;
     &-item {
       font-size: 15px;
+      font-weight: 300;
 
       &:nth-child(2n + 1) {
         background-color: $list-color;
