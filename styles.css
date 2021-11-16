@@ -49,11 +49,11 @@
   top: 10px;
   right: -30px;
   align-self: flex-end;
-  background-color: red;
+  background-color: #dc3f45;
   font-size: 17px;
+  line-height: 25px;
   font-weight: 700;
   text-align: center;
-  justify-content: center;
   transform: rotate(45deg);
 }
 .price-card__title {
