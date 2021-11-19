@@ -13,5 +13,4 @@
 - [BEM methodology](https://en.bem.info/methodology/)
 
 
-
 Author: [*Aleksandr Stepanets*](https://www.linkedin.com/in/aleksandr-stepanets-84328884/)
